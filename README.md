@@ -18,12 +18,10 @@ pip install Phishingxxx
 ## 설치 방법
 아래 명령어로 라이브러리를 설치할 수 있습니다:
 ```python
-from bisanggu.analyzer import crawl_website
-
-headers = {'User Agent 기입'}
+from phishingxxx.analyzer import crawl_website
 
 url = "검증 URL 기입"
-result = crawl_website(url, headers)
+result = crawl_website(url)
 
 # 예측 수행
 if result:
